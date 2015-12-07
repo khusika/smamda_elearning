@@ -1,0 +1,79 @@
+<resources>
+    <string name="pengumuman_fragment_title">إعلان</string>
+    <string name="artikel_fragment_title">مقالة</string>
+    <string name="berita_fragment_title">أنباء</string>
+    <string name="daftar_pelajaran_fragment_title">درس</string>
+    <string name="profil_fragment_title">الملف الشخصي</string>
+    <string name="pengaturan_fragment_title">ضبط</string>
+
+    <string name="open_drawer">فتح</string>
+    <string name="close_drawer">أغلق</string>
+
+    <string name="title_input_hint">لقب</string>
+    <string name="content_input_hint">محتوى</string>
+
+    <string name="dialog_title">إضافة البند</string>
+
+    <string name="dummy_string">
+Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks .\n\n
+
+Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks .
+    </string>
+
+    <!-- View Pager Title -->
+    <string name="fragment_smamda">SMAMDA</string>
+    <string name="fragment_ekskul">EKSKUL</string>
+    <string name="fragment_nasional">الوطني</string>
+    <string name="fragment_internasional">دولي</string>
+    <string name="fragment_guru">مدرس</string>
+    <string name="fragment_siswa">طالب علم</string>
+
+    <!-- Login Activity -->
+    <string name="login_switcher">سجل دخول</string>
+    <string name="username">اسم االمستخدم</string>
+    <string name="password">الرمز السري</string>
+    <string name="login_button">دخول</string>
+    <string name="loign_guide">كيفية الدخول؟</string>
+
+    <!-- Guide Activity -->
+    <string name="guru_judul">● مدرس</string>
+    <string name="siswa_judul">● طالب علم</string>
+    <string name="tamu_judul">● ضيف</string>
+    <string name="guru">
+    Untuk masuk sebagai guru, nama pengguna adalah email masing-masing.\nContoh :\n
+
+         •Nama Penguna  :   administrator@gmail.com\n
+    </string>
+    <string name="siswa">
+    Untuk masuk sebagai siswa, nama pengguna adalah nomer induk siswa masing-masing.\nContoh :\n
+
+         •Nama Penguna   :   090005\n
+    </string>
+    <string name="tamu">
+    Untuk masuk sebagai tamu, tekan tombol masuk.\n
+    </string>
+
+    <string name="edittext_error">Tidak boleh kosong</string>
+    <string name="titletext_error">Judul tidak boleh kosong</string>
+    <string name="contenttext_error">Konten tidak boleh kosong</string>
+    <string name="title_content_error">Judul &#038; Konten tidak boleh kosong</string>
+    <string name="text_success">Item ditambahkan</string>
+    <string name="text_undo">Batalkan</string>
+
+    <string name="text_about">Ini adalah contoh app dari SMAMDA E-learning.
+    \nSMAMDA e-learning : http://e-learning.smamda.sch.id
+    \nSMAMDA : http://smamda.sch.id</string>
+
+    <string name="google_license">
+
+       Copyright (C) 2005-2015 The Android Open Source Project\n\nLicensed under the Apache License,
+        Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.
+        \nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless
+        required by applicable law or agreed to in writing, software distributed under the
+        License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+        either express or implied. See the License for the specific language governing permissions
+        and limitations under the License.
+
+    </string>
+
+</resources>

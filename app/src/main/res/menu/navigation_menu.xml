@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_menu">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_pengumuman"
+            android:title="@string/pengumuman_fragment_title"
+            android:icon="@drawable/ic_pengumuman_24dp"
+            android:checked="true"/>
+        <item
+            android:id="@+id/item_tab_artikel"
+            android:title="@string/artikel_fragment_title"
+            android:icon="@drawable/ic_artikel_24dp"/>
+        <item
+            android:id="@+id/item_tab_berita"
+            android:title="@string/berita_fragment_title"
+            android:icon="@drawable/ic_berita_24dp"/>
+        <item
+            android:id="@+id/item_daftar_pelajaran"
+            android:title="@string/daftar_pelajaran_fragment_title"
+            android:icon="@drawable/ic_daftar_pelajaran_24dp"/>
+        <item
+            android:id="@+id/item_profil"
+            android:title="@string/profil_fragment_title"
+            android:icon="@drawable/ic_profil_24dp"/>
+
+        <item
+            android:id="@+id/item_pengaturan"
+            android:title="@string/pengaturan_fragment_title"
+            android:icon="@drawable/ic_pengaturan_24dp"/>
+
+    </group>
+
+</menu>

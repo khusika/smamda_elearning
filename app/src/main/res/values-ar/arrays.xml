@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_titles">
+        <item>1 لقب</item>
+        <item>2 لقب</item>
+        <item>3 لقب</item>
+        <item>4 لقب</item>
+        <item>5 لقب</item>
+    </string-array>
+
+    <string-array name="card_contents">
+        <item>1 نص</item>
+        <item>2 نص</item>
+        <item>3 نص</item>
+        <item>4 نص</item>
+        <item>5 نص</item>
+    </string-array>
+
+    <string-array name="user_login">
+        <item>مدرس</item>
+        <item>طالب علم</item>
+        <item>ضيف</item>
+    </string-array>
+
+</resources>
