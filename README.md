@@ -1,9 +1,9 @@
-# [WIP] Unofficial SMAMDA E-Learning Apps for Android
+#### [WIP]Unofficial SMAMDA E-Learning Apps for Android
 
-## What is this ?
+### What is this ?
 It's apps for SMAMDA E-Learning
 
-## Todo
+### Todo
 
 - [ ] Implement database
 - [ ] Need more features
