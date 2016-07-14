@@ -1,120 +1,61 @@
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent">
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
         android:orientation="vertical"
-        android:layout_height="match_parent"
-        tools:context="com.smamda.elearning.activities.LoginActivity">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
 
-        <FrameLayout
+        <ImageView android:src="@drawable/elearning"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="160dp"
-            android:gravity="center">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/primary_dark"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="40dp"
-                android:id="@+id/imageView"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/elearning"/>
-        </FrameLayout>
-
-        <LinearLayout
-            android:padding="10dp"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:padding="4.1dp"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:text="@string/login_switcher"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <Spinner android:id="@+id/spinner"
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:drawSelectorOnTop="true"
-                    android:entries="@array/user_login" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1.7dp"
-                    android:background="@color/accent"/>
-
-            </LinearLayout>
-
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
             <EditText
                 android:id="@+id/Username"
                 android:drawableLeft="@drawable/ic_username_24dp"
-                android:drawablePadding="5dp"
-                android:textSize="15dp"
-                android:hint="@string/username"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="10dp"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="@string/username" />
+        </android.support.design.widget.TextInputLayout>
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
             <EditText
                 android:id="@+id/Password"
                 android:drawableLeft="@drawable/ic_password_24dp"
-                android:drawablePadding="5dp"
-                android:textSize="15dp"
-                android:hint="@string/password"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:layout_marginBottom="10dp"
-                android:layout_height="wrap_content" />
+                android:hint="@string/password" />
+        </android.support.design.widget.TextInputLayout>
 
-            <Button
-                android:id="@+id/Login"
-                android:layout_width="match_parent"
-                android:layout_marginBottom="10dp"
-                android:layout_height="wrap_content"
-                android:textColor="@color/text_color_light"
-                android:background="@color/primary_dark"
-                android:text="@string/login_button" />
-
-            <TextView
-                android:id="@+id/Guide"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/loign_guide"
-                android:textColor="@color/primary_dark"/>
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_gravity="bottom"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="match_parent"
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/Login"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:textAlignment="center"
-            android:text="@string/copyright"
-            android:textSize="10dp"
-            android:textColor="@color/primary_dark"/>
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textColor="@color/text_color_light"
+            android:background="@color/primary_dark"
+            android:text="@string/login_button" />
 
     </LinearLayout>
-</FrameLayout>
+
+</ScrollView>

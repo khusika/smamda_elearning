@@ -29,29 +29,9 @@ Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks Teks 
     <string name="fragment_siswa">SISWA</string>
 
     <!-- Login Activity -->
-    <string name="login_switcher">Masuk sebagai</string>
     <string name="username">Nama Pengguna</string>
     <string name="password">Kata Sandi</string>
     <string name="login_button">Masuk</string>
-    <string name="loign_guide">Cara Masuk ?</string>
-
-    <!-- Guide Activity -->
-    <string name="guru_judul">● Guru</string>
-    <string name="siswa_judul">● Siswa</string>
-    <string name="tamu_judul">● Tamu</string>
-    <string name="guru">
-    Untuk masuk sebagai guru, nama pengguna adalah email masing-masing.\nContoh :\n
-
-         •Nama Penguna  :   administrator@gmail.com\n
-    </string>
-    <string name="siswa">
-    Untuk masuk sebagai siswa, nama pengguna adalah nomer induk siswa masing-masing.\nContoh :\n
-
-         •Nama Penguna   :   090005\n
-    </string>
-    <string name="tamu">
-    Untuk masuk sebagai tamu, tekan tombol masuk.\n
-    </string>
 
     <string name="edittext_error">Tidak boleh kosong</string>
     <string name="titletext_error">Judul tidak boleh kosong</string>

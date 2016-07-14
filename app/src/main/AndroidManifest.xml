@@ -9,9 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!-- Login activity -->
+        <!-- Main activity -->
         <activity
-            android:name=".activities.LoginActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,11 +20,8 @@
             </intent-filter>
         </activity>
 
-        <!-- Main activity -->
-        <activity android:name=".activities.MainActivity" />
-
-        <!-- Guide activity -->
-        <activity android:name=".activities.GuideActivity" />
+        <!-- Login activity -->
+        <activity android:name=".activities.LoginActivity" />
 
         <!-- Settings activity -->
         <activity android:name=".activities.SettingsActivity" />

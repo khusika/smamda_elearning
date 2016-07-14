@@ -16,10 +16,4 @@
         <item>Teks 5</item>
     </string-array>
 
-    <string-array name="user_login">
-        <item>Guru</item>
-        <item>Siswa</item>
-        <item>Tamu</item>
-    </string-array>
-
 </resources>

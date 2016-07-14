@@ -32,29 +32,9 @@ Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
     <string name="fragment_siswa">STUDENT</string>
 
     <!-- Login Activity -->
-    <string name="login_switcher">Login as</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login_button">Login</string>
-    <string name="loign_guide">How to Login ?</string>
-
-    <!-- Guide Activity -->
-    <string name="guru_judul">● Teacher</string>
-    <string name="siswa_judul">● Student</string>
-    <string name="tamu_judul">● Guest</string>
-    <string name="guru">
-    To login as a teacher, the username is the teacher email.\nExample :\n
-
-         •username  :   administrator@gmail.com\n
-    </string>
-    <string name="siswa">
-    To login as a student, the username is the student number.\nExample :\n
-
-         •username  :   090005\n
-    </string>
-    <string name="tamu">
-    To login as guest, press the login button.\n
-    </string>
 
     <string name="edittext_error">Can\'t be empty</string>
     <string name="titletext_error">Title can\'t be empty</string>

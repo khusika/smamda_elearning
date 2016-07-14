@@ -16,10 +16,4 @@
         <item>5 نص</item>
     </string-array>
 
-    <string-array name="user_login">
-        <item>مدرس</item>
-        <item>طالب علم</item>
-        <item>ضيف</item>
-    </string-array>
-
 </resources>
