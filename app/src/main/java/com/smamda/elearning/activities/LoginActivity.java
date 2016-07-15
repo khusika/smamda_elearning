@@ -108,7 +108,7 @@ public class LoginActivity extends AppCompatActivity {
         String password = _passwordText.getText().toString();
 
         if (username.isEmpty() ) {
-            _usernameText.setError("enter a valid username address");
+            _usernameText.setError("enter a valid username");
             valid = false;
         } else {
             _usernameText.setError(null);
