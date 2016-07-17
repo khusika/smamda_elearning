@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.smamda.elearning.R;
@@ -21,10 +22,13 @@ import butterknife.Bind;
 public class LoginActivity extends AppCompatActivity {
 
     private static final String TAG = "LoginActivity";
+    private static final int REQUEST_GUEST = 0;
+
 
     @Bind(R.id.Username) EditText _usernameText;
     @Bind(R.id.Password) EditText _passwordText;
     @Bind(R.id.Login) Button _loginButton;
+    @Bind(R.id.guest) TextView _guestLink;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,6 +41,14 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 login();
+            }
+        });
+
+        _guestLink.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
     }
@@ -73,16 +85,18 @@ public class LoginActivity extends AppCompatActivity {
                 }, 3000);
     }
 
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (resultCode == RESULT_OK) {
+        if (requestCode == REQUEST_GUEST) {
+            if (resultCode == RESULT_OK) {
 
                 // TODO: Implement successful signup logic here
                 // By default we just finish the Activity and log them in automatically
                 this.finish();
             }
         }
+    }
+
 
     @Override
     public void onBackPressed() {
